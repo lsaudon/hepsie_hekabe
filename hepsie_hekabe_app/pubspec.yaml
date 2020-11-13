@@ -9,8 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  hepsie_hekabe_domain:
+    path: ../hepsie_hekabe_domain
+  hepsie_hekabe_infrastructure:
+    path: ../hepsie_hekabe_infrastructure
 
-  cupertino_icons: ^1.0.0
+  mockito: ^4.1.3
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +22,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/rimbaud.txt

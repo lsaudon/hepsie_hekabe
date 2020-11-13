@@ -70,3 +70,4 @@ linter:
 
     public_member_api_docs: false
     diagnostic_describe_all_properties: false
+    one_member_abstracts: false

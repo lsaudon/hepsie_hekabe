@@ -11,15 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  hepsie_hekabe_domain:
+    path: ../hepsie_hekabe_domain
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.example.hepsie_hekabe_infrastructure
-        pluginClass: HepsieHekabeInfrastructurePlugin
-      ios:
-        pluginClass: HepsieHekabeInfrastructurePlugin
